@@ -1,0 +1,117 @@
+
+        .left {
+            display: inline-block;
+            /* display: block; */
+            /* border: 2px solid green; */
+            position: absolute;
+            left: 20px;
+            top: 10px;
+
+
+        }
+
+        .left img {
+            display:block;
+            width: 80px;
+            margin: 0px auto;
+        }
+
+        .left h3 {
+            font-size: 20px;
+            font-family: 'Baloo Bhai 2', cursive;
+            text-align: center;
+            line-height: 0%;
+            color: rgb(44, 51, 2);
+        }
+
+        .mid {
+            display: flex;
+            /* display: block; */
+            /* border: 2px solid blue; */
+            margin: 10px auto;
+            width: 42%;
+            background-color: rgb(54, 20, 20);
+            border-radius: 10px;
+
+
+        }
+
+        .mid a {
+            display: block;
+            text-decoration: none;
+            /* padding: 0px 14px; */
+            margin: auto;
+            font-size: 30px;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+        }
+
+        .mid a:hover,
+        .mid a.active {
+            color: greenyellow;
+            text-decoration: underline;
+        }
+
+        .right {
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            position: absolute;
+            right: 20px;
+            top: 10px;
+
+        }
+
+        .btn {
+            font-size: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 15px;
+            font-family: 'Baloo Bhai 2', cursive;
+            background-color: rgb(169 173 172);
+            border-radius: 4px;
+            color: rgb(112 9 71);
+            margin: 0px 0px;
+        }
+
+        .btn:hover {
+            color: blueviolet;
+        }
+
+        .form {
+            /* border: 2px solid rgb(197, 135, 19); */
+            /* display: block; */
+            width: 42%;
+            margin: auto;
+        }
+
+        .fill {
+            font-size: 28px;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: blue;
+            text-align: center;
+        }
+
+        .fill-form {
+            /* border: 2px solid yellow; */
+            font-size: 30px;
+            font-family: 'Baloo Bhai 2', cursive;
+            color: #245541;
+        }
+
+        .fill-form input {
+            color: blue;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size: 30px;
+            display: block;
+            margin: 0px auto;
+            text-align: center;
+            border-radius: 8px;
+        }
+
+        .fill-form button {
+            display: block;
+            font-size: 30px;
+            margin: 20px auto;
+            /* width: 378px; */
+            background-color: rgb(62, 62, 139);
+            color: rgb(223, 45, 45);
+        }
